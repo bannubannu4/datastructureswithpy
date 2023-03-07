@@ -1,0 +1,29 @@
+* class varables can be access inside the method using key word self
+* instident varables can be access outside the class obj name.varables name
+* varables inside the method having local scope we can"t  acess them outside the class 
+
+Encapsulation
+* Public
+* private
+* protected
+
+#DATA STRUCTURE
+Inorder to structalisesd is data to keep it efficient in terems of memory uses extracting information is called data structure.
+
+                       -> static-> array
+                -linear-^
+data structure->        ->dynamic-> list - stack - queue
+                -non-linear-
+                         ->Graph
+                         ->tree
+#LINKED LIST
+linked list: list of data Or items been linked with one another is called as Linked list.
+applications  of LL in real world: spotify, train, opening multiple links at-a-time.
+
+data|next-> data|next-> data|next-> null
+  node-1      node-2      node-3
+value|address
+
+
+
+                        
