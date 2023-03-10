@@ -1,0 +1,81 @@
+with lieaner queue  empty spaces which we get after performiming d-queue operations cant be used how ever it is very much possable when we make that linear queue and
+this must be advantage of queue
+#find out when rear will be greater then front 
+
+
+AFTERNOON
+Tree: In a tree nodes can have n number of children
+                         1
+                       /  \
+                    2       3
+                  / | \    / \
+                4   5  6  7   8
+                             / \
+                            9   10
+                                / \
+                               11  12
+                               |
+                               13
+4,5,6,7,9,13 are not having child
+
+Binary tree: A Node can have max two childern.
+               1
+              / \
+             2   3
+            / \
+           4   5
+ level order travel shell- 1,2,3,5,6 
+ Note: we have to travers level by level strating from root proceeding from left to right
+                           50
+                        /      \
+                      20        45
+                    /    \
+ tree travel cell
+ 1.Breath first search(BFS)
+ 2.Depth first search(DFS)
+ Three types of dfs
+ 1.pri-order travel shell
+ 2.In-order travel shell
+ 3.post-order travel shell
+
+Binary tree insertion:
+we will do level order travel shell till we the find  an empty space.
+in that empty space new node will be inserted.
+                             1
+                            /  \
+                           7    9
+                          / \     \
+                         2   6     9
+                            / \    /
+                           5   11 4
+
+preorder traversal : root-left-right
+inorder traversal : left-root-right
+postorder traversal : left-right-root
+
+preorder :
+                             A
+                           /   \
+                          B     C
+                         / \   /  \
+                        D   E F    G
+                           /       /
+                          H       I
+            preorder traversal : A,B,D,E,H,C,F,G,I
+inorder:
+                             A
+                           /   \
+                          B     C
+                         / \   /  \
+                        D   E F    G       
+            inorder traversal : D,B,E,A,F,C,G       
+postorder: 
+                             A
+                           /   \
+                          B     C
+                         / \   /  \
+                        D   E F    G       
+            postorder traversal : D,E,B,F,G,C,A
+
+Draw the tree root node 
+
