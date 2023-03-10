@@ -1,0 +1,3 @@
+# Stack implimentation using LL
+1.push is inserting node at beginning.
+2.pop is removing the head node.
